@@ -1,0 +1,15 @@
+db_file: "bot.db"
+
+bot_url: "https://t.me/test90801384_bot"
+
+messages:
+  responses:
+    start: "Привет) Чтобы сохранять ссылки, мне нужно твое разрешение. Перейди по ссылке: \n%s"
+    already_authorized: "Ты уже авторизован, жду от тебя ссылку"
+    saved_successfully: "Ссылка успешно сохранена"
+    unknown_command: "Я не знаю такой команды(("
+  errors:
+    default: "Неизвестная ошибка"
+    invalid_url: "Ссылка не валидна"
+    unauthorized: "Ты не авторизирован, используй /start"
+    unable_to_safe: "Не удалось сохранить ссылку, попробуй еще раз"
